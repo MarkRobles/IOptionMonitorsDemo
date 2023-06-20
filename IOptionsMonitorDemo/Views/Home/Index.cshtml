@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="card" style="width: 58rem;">
+    <div class="card-header">
+        MailFeatureOptions
+    </div>
+
+    <div class="card-body">
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item text-left"><strong>IsEnabled:</strong> @ViewData["IsEnabled"]</li>
+            <li class="list-group-item text-left"><strong>SmtpServer:</strong> @ViewData["SmtpServer"]</li>
+            <li class="list-group-item text-left"><strong>FromEmailAddress:</strong> @ViewData["FromEmailAddress"]</li>
+            <li class="list-group-item text-left"><strong>Subject:</strong> @ViewData["Subject"]</li>
+        </ul>
+    </div>
+</div>
